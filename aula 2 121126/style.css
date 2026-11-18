@@ -1,0 +1,119 @@
+/*Configuração */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Configuração do body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/*Cabeçalho */
+header {
+    background-color: #333;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px solid #ff6600;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ff6600;
+}
+
+
+/*Menu de navegação */
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+/*Conteúdo principal */
+main {
+    width: 80%;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+/*Secções*/
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*Títulos*/
+
+section h2 {
+    color: #ff6600;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+/*Títulos*/
+
+section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+
+}
+
+/*Paragrafos*/
+section p {
+    margin-bottom: 12px;
+    color: #333;
+}
+
+/*Listas*/
+
+section ul {
+    padding-left: 25px;
+}
+
+section li {
+    margin-bottom: 12px;
+    color: #333;
+}
+
+
+/*Projetos*/
+
+.projeto {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+
+}
